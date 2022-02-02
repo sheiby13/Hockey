@@ -142,25 +142,60 @@ body{
 	flex: 1 1 auto;
 }
 .nft-based__container{
-	padding: 50px 15px 10px 15px;
+	/*padding: 50px 15px 10px 15px;
 	display: flex;
-	align-items: right;
 	flex-wrap: wrap;
 	position: relative;
-	justify-content: flex-end;
+	justify-content: flex-end;*/
 
+}
+.nft-based__body{
+	display: flex;
+	align-items: center;
+	margin: 20px 0px 0px 0px;
 }
 .nft-based__content{
 	flex: 0 1 50%;
-	/*padding: 10px 10px 40px 10px;*/
+	padding: 0px 0px 0px 50px;
 }
+.nft-based__video{
+	flex: 0 1 50%;
+	padding: 0px 0px 25% 0px;
+	position: relative;
+	margin: 0px 0px 50px 0px;
+}
+.nft-based__video iframe{
+	position: absolute;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	top: 60px;
+	left: 0;
+	object-fit: cover;
+}
+.block-text__title{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	color: #4659e0;
+	color:#6175ff;
+	}
 .nft-based__block-text{	
+	max-width: 650px;
+	margin: 0 auto;
 }
-
 .block-text__text{
 	font-weight: 700;
 	font-size: 64px;
 	text-transform: uppercase;
 }	
+.text-logo{
+	text-shadow: 2px 2px #ffd700;
+}
+.block-text__text_blue span{
+	color:#3850ba;
+	color:#7d8eff;
+	font-weight: 900;
+}
 .footer{
 }
