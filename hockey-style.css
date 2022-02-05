@@ -138,6 +138,51 @@ body{
 .menu__link:active{
 	text-decoration: none;
 }
+/*ADAPTIVE------------------------------------------------------*/	
+@media(max-width: 991.98px){
+    .header__container{
+		min-height: 80px;
+	}
+	.header__logo{
+	position: relative;
+	z-index: 5;
+	display: flex;
+	margin: 0px 0px 0px 0px;
+	border-radius: 30px;
+    }
+	.header__icon{
+		border-radius: 30px;
+		width: 80%;
+	}
+	.menu__item{
+    	margin: 0px 30px 0px 0px;
+    	font-size: 12px;
+    }
+    .header__title{
+    	font-size: 32px;
+    	margin: 0px 0px 0px 10px;
+    }
+}
+@media(max-width: 767.98px){
+    .header__logo{
+		position: relative;
+		display: flex;
+		margin: 0px 0px 0px 0px;
+		border-radius: 30px;
+		width: 50%;
+		index-z: 2;
+    }
+}
+@media(max-width: 479.98px){
+	.header__title{
+		display: none;
+	}
+	.header__logo{
+		position: relative;
+		width: 70px;
+		height: 70px;
+	}
+}
 /*------------------------------------------------------*/	
 .main{
 	flex: 1 1 auto;
