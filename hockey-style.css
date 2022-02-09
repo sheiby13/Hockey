@@ -133,7 +133,7 @@ body{
 }
 .menu__link:hover{
 	text-decoration: none;
-	text-shadow:  #a1adff 1px 1px 12px;;
+	text-shadow:  #a1adff 1px 1px 12px;
 }
 .menu__link:active{
 	text-decoration: none;
@@ -188,12 +188,13 @@ body{
 	flex: 1 1 auto;
 }
 .nft-based__container{
-	/*padding: 20px 15px 20px 15px;
-	text-align: justify;*/
-	margin: 0px 0px 0px 100px;
-	padding: 20px 15px 50px 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 15px 200px 15px;
 	display: flex;
 	align-items: center;
+	max-width:1300px;
+	margin: 10px auto 200px;
+	padding: 0px 15px;
 }
 .nft-based__body{
 	position: relative;
@@ -257,21 +258,31 @@ body{
 }
 /*------------------------------------------------------*/
 .history__container{
-	padding: 100px 15px 100px 15px;
+	padding: 100px 15px 50px 15px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	position: relative;
+	margin-bottom: -100px;
+
 }
 .history__content{
 	text-align: justify;
-	margin: 0px auto;
+	margin: 10px auto -50px;
 	padding: 0px 0px 0px 0px;
+	top: -50px;
+}
+.history__block-text{
+	position:relative ;
+	top: -20px;
+    margin: 10px 0px -10px 0px;
 }
 .history-img{
-	float: right;
-	margin: 10px 0px 15px 10px;
-	width: 40%;
+	align-items: center;
+	display: block;
+	margin: 40px auto 20px;
+	width: 80%;
+	height: 80%;
 	box-shadow: 0 0 30px rgba(171, 176, 184, 1.0); 
 	border-radius: 5px;
 }
@@ -280,25 +291,31 @@ body{
 }
 .stick{
 	position: relative;
-	width: 100%;
-	height: 50%;
+	float: right;
+	right: -120px;
+	top: -100px;
+	width: 80%;
+	height: 30%;
 	z-index: 5;
-	}
+	margin-bottom: 25px;
+}
 .puck{
 	position: relative;
 	float: right;
-	margin: -50px 300px 0px 0px;
+	margin: -10px -50px 0px 0px;
+	transform: scaleX(-1);
 	width: 300px;
 	height: 50%; 
-	transform: rotate(-20deg);
 	z-index: 2;
-	top: -220px;
+	top: -200px;
 }
-.history__title{
+.title{
 	text-align: center;
 }
-
 /*------------------------------------------------------*/
+.roadmap__container{
+	margin: 10px auto 50px;
+}
 .nft-map{
 	position: relative;
 	margin: 0px auto;
@@ -308,7 +325,6 @@ body{
 	font-size: 24px;
 	text-transform: uppercase;
 	margin: 0px 0px 10px 0px;
-	
 }
 .nft-map__title_center{
 	text-align: center;
@@ -332,6 +348,66 @@ body{
 	align-items: center;
 }
 /*------------------------------------------------------*/
+.team{
+	margin-bottom: 100px;
+}
+.title-team{
+	justify-content: center;
+	max-width:1300px;
+	margin: 10px auto;
+	padding: 0px 15px;
+	padding-top:100px;
+}
+.team_member{
+	margin: 100px 50px 30px 50px;
+	padding: 20px;
+	text-align: center;
+	background: white;
+	border-radius: 15px;
+	padding: 100px 20px 30px 20px;
+	width: 300px;
+	line-height: 20px;
+	letter-spacing: normal;
+	color: #8e8b8b;
+	position: relative;
+	box-shadow: 0 0 10px rgba(125, 142, 255, 1.0); 
+}	
+.team_member p.role{
+	color: #ccc;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+h3{
+	font-weight: bolder;
+}
+.team__container{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	text-align: center;
+	flex-wrap:wrap;
+	flex-direction: row;
+	width: auto;
+}
+.team_img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.team_img img{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	box-shadow: 0 0 30px rgba(171, 176, 184, 1.0); 
+}
+p span{
+	color: #7d8eff;
+	font-weight: 520;
+}
 
 /*------------------------------------------------------*/
 .footer{
