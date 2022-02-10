@@ -398,12 +398,16 @@ h3{
 	left: 50%;
 	transform: translate(-50%);
 }
+.team_img img:hover{
+	box-shadow: 0 0 15px rgba(255, 217, 0, 1.0); 
+}
 .team_img img{
 	width: 90%;
 	height: 90%;
 	border-radius: 50%;
-	box-shadow: 0 0 30px rgba(171, 176, 184, 1.0); 
+	box-shadow: 0 0 35px rgba(171, 176, 184, 1.0); 
 }
+
 p span{
 	color: #7d8eff;
 	font-weight: 520;
