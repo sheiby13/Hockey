@@ -233,8 +233,6 @@ body{
 	font-size: 32px;
 	text-shadow: 1px 2px 3px #a1adff;
 	padding: 0px 0px 30px 0px;
-	color: #4659e0;
-	color:#6175ff;
 	color: #fafcff;
 	}
 .nft-based__block-text{	
@@ -264,7 +262,6 @@ body{
 	flex-wrap: wrap;
 	position: relative;
 	margin-bottom: -100px;
-
 }
 .history__content{
 	text-align: justify;
@@ -407,13 +404,9 @@ h3{
 	border-radius: 50%;
 	box-shadow: 0 0 35px rgba(171, 176, 184, 1.0); 
 }
-
 p span{
 	color: #7d8eff;
 	font-weight: 520;
-}
-.media{
-	
 }
 .fab{
 	color: #7d8eff;
@@ -424,7 +417,6 @@ p span{
     color: #7d8eff;
 	text-shadow: 2px 2px #fff;
 }
-	
 /*------------------------------------------------------*/
 .footer{
 	padding: 40px 0;
