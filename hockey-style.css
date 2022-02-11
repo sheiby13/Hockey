@@ -559,7 +559,7 @@ h3{
 .team__container{
 	display: flex;
 	justify-content: center;
-	margin: 20px;
+	
 	text-align: center;
 	flex-wrap:wrap;
 	flex-direction: row;
@@ -594,6 +594,20 @@ p span{
 .social .fab{
     color: #7d8eff;
 	text-shadow: 2px 2px #fff;
+}
+/*ADAPTIVE----------------------------------------------*/
+@media (max-width: 1300px){
+	.team__container{
+		
+	}
+	.team_member{
+		width: 200px;
+	}
+	.team_img{
+		width: 150px;
+		height: 150px;
+		top: -80px;
+	}
 }
 /*------------------------------------------------------*/
 .footer{
