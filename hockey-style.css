@@ -271,6 +271,12 @@ body{
 	}
 }
 @media(max-width: 991.98px){
+	.nft-based{
+		padding-top: 30px;
+	}
+	.nft-based__container{
+		margin-bottom: 100px;
+	}
 	.block-text__title{
 		font-size: 36px;
 	}
@@ -306,6 +312,7 @@ body{
 		align-items: stretch;
 		flex-direction: column;
 		margin: 10px auto 0px;
+
 	}
 	.nft-based__video iframe{
 		margin: 0px auto;
@@ -319,7 +326,6 @@ body{
 		margin-top: 100px;
 	}
 }
-
 /*------------------------------------------------------*/
 .history__container{
 	padding: 100px 15px 50px 15px;
@@ -374,6 +380,66 @@ body{
 }
 .title{
 	text-align: center;
+}
+/*ADAPTIVE------------------------------------------------------*/  
+@media(max-width: 1550px){
+	.stick{
+		display: none;
+}
+@media(max-width: 1300px){
+  .history__container{
+    padding-top: 30px;
+    margin-bottom: 100px;
+  }
+  .history__hockey-tools-img{
+    display: none;
+  }
+}
+@media(max-width: 991.98px){
+  .history__container{
+    padding-top: 30px;
+    margin-bottom: 100px;
+  }
+  .block-text__title{
+    margin-top: 20px;
+  }
+  .puck{
+    width: 150px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    z-index: 2;
+    top: -100px;
+  }
+}
+@media(max-width: 767.98px){
+  .history__container{
+    padding-top: 0px;
+  }
+  .block-text__title{
+    margin-top: 20px;
+  }
+  .puck{
+    width: 150px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    z-index: 2;
+    top: -100px;
+  }
+}
+@media(max-width: 480px){
+  .puck{
+    width: 100px;
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    z-index: 2;
+    top: -100px;
+  }
+  .history__content{
+  	line-height: 32px;
+  }
 }
 /*------------------------------------------------------*/
 .roadmap__container{
