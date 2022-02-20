@@ -177,6 +177,9 @@ input[type="checkbox"]{
     .header__title{
     	display: none;
     }
+    .menu__body{
+    	margin: 0 10px; 
+    }
     .header__menu{
 		position: relative;
 		
@@ -191,9 +194,16 @@ input[type="checkbox"]{
     }
 }
 @media(max-width: 480px){
+	.header__container{
+		flex-direction: row-reverse;
+	}
 	.header__logo{
-		margin-left: auto; 
 		justify-content: flex-end;
+		padding-left: 10px;
+	}
+	.header__title.title-nft{
+		display: block;
+		font-size: 32px;
 	}
 	#menu__toggle{
 		opacity: 0;
@@ -233,7 +243,6 @@ input[type="checkbox"]{
         position: fixed;
         top: 0;
  		left: -100px;
-
  		width: 300px;
 		height: 100%;
 		margin: 0;
@@ -262,7 +271,6 @@ input[type="checkbox"]{
 		font-size: 20px;
 		font-weight: 600;
 		text-decoration: none;
-
 	}
 	.menu__link:hover {
 		background-color: #CFD8DC;
@@ -305,7 +313,6 @@ input[type="checkbox"]{
 	    visibility: visible;
 	    left: 0;
 	}
-
 }
 /*------------------------------------------------------*/	
 .main{
@@ -358,7 +365,7 @@ input[type="checkbox"]{
 	text-shadow: 1px 2px 3px #a1adff;
 	padding: 0px 0px 30px 0px;
 	color: #fafcff;
-	}
+}
 .nft-based__block-text{	
 	max-width: 650px;
 	margin: 0 auto;
@@ -429,7 +436,6 @@ input[type="checkbox"]{
 		align-items: stretch;
 		flex-direction: column;
 		margin: 10px auto 0px;
-
 	}
 	.nft-based__video iframe{
 		margin: 0px auto;
@@ -555,7 +561,7 @@ input[type="checkbox"]{
 	    margin: 0px 0px 0px 0px;
 	    z-index: 2;
 	    top: -100px;
-	  }
+	}
 	.history__content{
 	  	line-height: 32px;
 	}
@@ -676,7 +682,6 @@ h3{
 .team__container{
 	display: flex;
 	justify-content: center;
-	
 	text-align: center;
 	flex-wrap:wrap;
 	flex-direction: row;
